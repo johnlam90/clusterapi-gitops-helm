@@ -1,0 +1,27 @@
+name:       capi-helm  
+server:     10.46.83.23 
+datacenter: US_DC
+cluster:    US_DEM_Cluster
+datastore:  ISCSI-PURE-LUN-4
+net1:       VLAN-703
+net2:       VM Network
+version:    v1.17.5 
+
+haproxy:
+  template: capv-haproxy
+  disk: 25
+  memory: 8192
+  vcpu: 2
+
+machine:
+  template: photon-3-kube-v1.17.5
+  disk: 25
+  memory: 16000
+  vcpu: 16 
+
+control:
+  replicas: 3
+
+
+node: 
+  replicas: 12

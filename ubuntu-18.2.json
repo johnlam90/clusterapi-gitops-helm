@@ -1,0 +1,17 @@
+{
+    "Annotation": "Cluster API vSphere image - Ubuntu 18.04 and Kubernetes v1.18.2 - https://github.com/kubernetes-sigs/cluster-api-provider-vsphere",
+    "DiskProvisioning": "flat",
+    "IPAllocationPolicy": "dhcpPolicy",
+    "IPProtocol": "IPv4",
+    "InjectOvfEnv": false,
+    "MarkAsTemplate": false,
+    "Name": null,
+    "NetworkMapping": [
+        {
+            "Name": "nic0",
+            "Network": "VLAN-703"
+        }
+    ],
+    "PowerOn": false,
+    "WaitForIP": false
+}
