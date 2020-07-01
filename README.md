@@ -73,4 +73,4 @@ spec:
     automated: {}
 ```
 
-**Note:**Change the ``repoURL`` to your git repository 
+**Note:** Change the ``repoURL`` to your git repository 
