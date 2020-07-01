@@ -3,9 +3,12 @@
 <p float="center">
   <img src="./docs/images/git-icon.png" width="160" /> 
   <img src="./docs/images/plus2.png" width="50" /> 
-  <img src="./docs/images/argocd.png" width="160" /> 
+  <img src="./docs/images/helm.svg" width="160" /> 
   <img src="./docs/images/plus2.png" width="50" /> 
   <img src="./docs/images/capi.png" width="160" />
+  <img src="./docs/images/plus2.png" width="50" /> 
+  <img src="./docs/images/argocd.png" width="160" /> 
+
 </p>
 
 ## Goals
