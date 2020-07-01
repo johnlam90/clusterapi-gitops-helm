@@ -18,6 +18,12 @@
 - Version control
 - Using GitOps([ArgoCD](https://github.com/argoproj/argo-cd)) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
 
+<p float="center">
+  <img src="./docs/images/argo-screenshot.png" width="250" />
+
+</p>
+
+
 ## Prerequisites
 
 - [kind](https://kind.sigs.k8s.io/) - This will act as your management cluster for bootstrapping cluster-api components.
