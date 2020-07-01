@@ -16,7 +16,7 @@
 - To bring [declarative style](https://cluster-api.sigs.k8s.io/introduction.html), Kubernetes style APIs to cluster creation
 - Use helm to modify k8 cluster values based on requirement. This helps in code reusability
 - Version control
-- Using GitOps(ArgoCD) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
+- Using GitOps([ArgoCD](https://github.com/argoproj/argo-cd)) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
 
 ## Prerequisites
 
