@@ -179,8 +179,8 @@ spec:
       users:
       - name: capv
         sshAuthorizedKeys:
-        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0v6ZOWl7TazPj/hnoebOvtPaBJ9b3p52GJrPvAXt1hhAtFZVq+CqnLf+++DIbz/SYF7BOQbcDlAdUBHGwN/PCIZgbDPARCGYmqFvYpM0X25vg3HOC+Jke+aW1T578Tlr0lxzSGJ+x00b17Y99J1Ump28kRSF6GF+cnD3ffpstUUNukPeZR6rZVezr/TlFhxrYH5BvfF4CQ5pwSa3l5YN0XB9/ikBqrIkkWZ7byVJtU+139H5rCmghxwUuncNKK2r2ATw+Wa3l5Bm9JwKZm5E3kAZKoOIce5PVA+00Hbl+SSSA/Ctzhew4LBnXoY3BgRS4m3ZOHp8bAWYmQgvmwlKD
-          nokia@M-C02YX5PQLVCG.local
+        - {{ .Values.key }}
+        
         sudo: ALL=(ALL) NOPASSWD:ALL
 ---
 apiVersion: cluster.x-k8s.io/v1alpha3
