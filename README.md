@@ -29,10 +29,16 @@
 
 For more information refer to the cluster-api [quickstart](https://cluster-api.sigs.k8s.io/user/quick-start.html)
 
-### Install argocd on you kind cluster 
-
+### Clone repository 
+```
+git clone https://github.com/johnlam90/capv-helm.git
+cd capv-helm 
+```
+### Install argocd on you kind cluster
+ 
 ```
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-
 ```
+
+
