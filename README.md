@@ -1,9 +1,10 @@
 # Cluster API deployment on vSPHERE using helm and ArgoCD
 
-<p float="left">
+<p float="center">
   <img src="./docs/images/capi.png" width="100" />
   <img src="./docs/images/argocd.png" width="100" /> 
 </p>
+
 ## Goals
 
 - To simplify kubernetes deployments using using declarative (ClusterAPI)  style code
