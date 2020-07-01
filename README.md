@@ -1,6 +1,6 @@
 # Cluster API deployment on vSPHERE using helm and ArgoCD
 
-<p align="center"><img alt="capi" src="./docs/images/capi.png" width="160x" /></p> <p align="center"><img alt="capi" src="./docs/images/argocd.png" width="160x" /></p>
+![alt-text-1](./docs/images/capi.png "title-1") ![alt-text-2]( ./docs/images/argocd.png "title-2")
 
 ## Goals
 
