@@ -9,7 +9,7 @@
 
 ## Prerequisites
 
-- [kind](https://kind.sigs.k8s.io/) - This will act as your management cluster for bootstrapping cluster-api components. kind is not designed for production use.
+- [kind](https://kind.sigs.k8s.io/) - This will act as your management cluster for bootstrapping cluster-api components.
 - [clusterctl](https://cluster-api.sigs.k8s.io/user/quick-start.html) - The clusterctl CLI tool handles the lifecycle of a Cluster API management cluster.
 - [Govc](https://github.com/vmware/govmomi/tree/master/govc) - Govc will be used to interact with your vSphere environment.
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
