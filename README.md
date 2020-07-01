@@ -16,7 +16,7 @@
 - To simplify kubernetes deployments using using declarative (ClusterAPI)  style code
 - Use helm to modify k8 cluster values based on requirement. This helps in code reusability
 - Version control
-- Using GitOps(ArgoCD) to deploy, scale-in/scale-out your Kubernetes infrastructure
+- Using GitOps(ArgoCD) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
 
 ## Prerequisites
 
