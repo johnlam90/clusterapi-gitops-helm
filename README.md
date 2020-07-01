@@ -49,5 +49,28 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
+### Deploy the Application 
 
+```
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: capv
+  namespace: argocd
+spec:
+  destination:
+    namespace: 'default'
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    helm:
+      valueFiles:
+      - values.yaml
+    path: capv
+    repoURL: https://github.com/johnlam90/capv-helm.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
+```
 
+**Note:**Change the ``repoURL`` to your git repository 
