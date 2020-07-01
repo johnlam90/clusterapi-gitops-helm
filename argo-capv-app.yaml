@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: capv
+  namespace: argocd
+spec:
+  destination:
+    namespace: 'default'
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    helm:
+      valueFiles:
+      - values.yaml
+    path: capv
+    repoURL: https://github.com/johnlam90/capv-helm.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
