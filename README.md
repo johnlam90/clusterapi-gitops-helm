@@ -19,8 +19,7 @@
 - Using GitOps([ArgoCD](https://github.com/argoproj/argo-cd)) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
 
 <p float="center">
-  <img src="./docs/images/argo-screenshot.png" width="250" />
-
+  <img src="./docs/images/argo-screenshot.png" width="160" />
 </p>
 
 
