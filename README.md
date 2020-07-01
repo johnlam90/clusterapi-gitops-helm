@@ -28,3 +28,11 @@
 - vSphere 6.7U3 or above
 
 For more information refer to the cluster-api [quickstart](https://cluster-api.sigs.k8s.io/user/quick-start.html)
+
+### Install argocd on you kind cluster 
+
+'''
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+'''
