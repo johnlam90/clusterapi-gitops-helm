@@ -1,4 +1,4 @@
-# Cluster API K8s deployment on vSphere using helm and ArgoCD
+# Cluster API GitOps using helm and ArgoCD
 
 <p float="center">
   <img src="./docs/images/git-icon.png" width="160" /> 
@@ -13,7 +13,7 @@
 
 ## Goals
 
-- To bring [declarative style](https://cluster-api.sigs.k8s.io/introduction.html), Kubernetes style APIs to clsuter creation
+- To bring [declarative style](https://cluster-api.sigs.k8s.io/introduction.html), Kubernetes style APIs to cluster creation
 - Use helm to modify k8 cluster values based on requirement. This helps in code reusability
 - Version control
 - Using GitOps(ArgoCD) to deploy, scale-in/scale-out and rollback your Kubernetes clusters.
