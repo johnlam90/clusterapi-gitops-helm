@@ -27,7 +27,7 @@
 - [clusterctl](https://cluster-api.sigs.k8s.io/user/quick-start.html) - The clusterctl CLI tool handles the lifecycle of a Cluster API management cluster.
 - [Govc](https://github.com/vmware/govmomi/tree/master/govc) - Govc will be used to interact with your vSphere environment.
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- [helm3](https://github.com/helm/helm)
+- [helm](https://github.com/helm/helm)
 - vSphere 6.7U3 or above
 
 For more information refer to the cluster-api [quickstart](https://cluster-api.sigs.k8s.io/user/quick-start.html)
