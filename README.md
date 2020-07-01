@@ -43,7 +43,7 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 ### Access the GUI using port forwarding 
-Note: Ideally you will use LoadBalancer or Ingress in production deployments, but port forwarding will do for our kind cluster. Refer to the argo [doc](https://argoproj.github.io/argo-cd/getting_started/)
+**Note:** Ideally you will use LoadBalancer or Ingress in production deployments, but port forwarding will do for our kind cluster. Refer to the argo [doc](https://argoproj.github.io/argo-cd/getting_started/)
 
 ```
 kubectl port-forward svc/argocd-server -n argocd 8080:443
