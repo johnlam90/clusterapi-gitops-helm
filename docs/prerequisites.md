@@ -22,7 +22,7 @@ source govcvars.sh
 govc about
 ```
 
-## Install kind
+### Install kind
 
 ```bash
 # MacOS
@@ -38,7 +38,7 @@ kind create cluster
 kubectl cluster-info
 ```
 
-## Install clusterctl
+### Install clusterctl
 
 ```bash
 # MacOS
