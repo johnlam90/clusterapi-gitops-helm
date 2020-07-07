@@ -5,7 +5,7 @@ cluster:    US_DEM_Cluster
 datastore:  ISCSI-PURE-LUN-4
 net1:       VLAN-703
 net2:       VM Network
-version:    v1.17.5 
+version:    v1.18.2 
 
 haproxy:
   template: capv-haproxy
@@ -14,7 +14,7 @@ haproxy:
   vcpu: 2
 
 machine:
-  template: photon-3-kube-v1.17.5
+  template: photon-3-kube-v1.18.2
   disk: 25
   memory: 16000
   vcpu: 16 
