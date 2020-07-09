@@ -40,6 +40,9 @@ spec:
       devices:
       - dhcp4: true
         networkName: {{ .Values.net1 }}
+      - dhcp4: true
+        networkName: {{ .Values.net2 }}
+
     numCPUs: {{ .Values.haproxy.vcpu }}
     resourcePool: {{ .Values.cluster }}/Resources/k8s
     server: {{ .Values.server }}
