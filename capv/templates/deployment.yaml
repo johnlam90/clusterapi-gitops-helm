@@ -102,8 +102,6 @@ spec:
         devices:
         - dhcp4: true
           networkName: {{ .Values.net1 }}
-        - dhcp4: false
-          networkName: {{ .Values.net2 }}
       numCPUs: {{ .Values.machine.vcpu }}
       resourcePool: {{ .Values.cluster }}/Resources/k8s
       server: {{ .Values.server }}
